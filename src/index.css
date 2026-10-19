@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{font-family:'Inter',sans-serif;background:#fcfcfa}
+.opt{transition:all .2s}
+.opt.active{border-color:#1e40af;background:#eef6e5;border-width:2px}
