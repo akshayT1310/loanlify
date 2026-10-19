@@ -81,7 +81,7 @@ export default function App(){
               <input required placeholder="ZIP Code" value={data.zip} onChange={e=>setData({...data,zip:e.target.value})} className="border rounded-xl p-3 w-full"/>
               <label className="flex gap-2 text-[11px] text-gray-600"><input type="checkbox" checked={data.consent} onChange={e=>setData({...data,consent:e.target.checked})} required/> I agree to be contacted. Not affiliated with Quicken Loans.</label>
               <a
-  href="https://refinance.quickenloans.com/ql_lp"
+  href="{offer_link}"
   className="block w-full bg-[#5B8C2E] hover:bg-[#4a7325] text-white font-bold rounded-full py-4 text-center"
 >
   See My Options
